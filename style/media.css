@@ -176,7 +176,7 @@
 
     .banner {
         height: 100%;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .banner__title{
@@ -195,7 +195,7 @@
     }
 
     .downloads__btn {
-        margin-top: -5px;
+        margin-top: 20px;
     }
 
     .exchange__img img {
