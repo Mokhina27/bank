@@ -1,0 +1,513 @@
+@import 'font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #EFF5F5;
+}
+
+.container {
+    width: 1314px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.header__logo{
+    padding-top: 15px;
+}
+
+.logo__text {
+    padding-top: 23px;
+}
+
+.header__logo-text {
+    color: #B49081;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.header__logo-title {
+    color: #563529;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 10.5px;
+}
+
+.header__nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list-link {
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.header__list-li {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header__btn {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    padding: 9px 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    background: url(../img/background.svg) no-repeat center / cover;
+    height: calc(100vh - 86px);
+    background-size: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__title {
+    color: #323232;
+    font-size: 50px;
+}
+
+.downloads__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+.banner__btn {
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 59px 30px -40px rgba(0, 133, 255, 0.10);
+    backdrop-filter: blur(15px);
+    padding: 27px 0 26px;
+    max-width: 635px;
+    display: flex;
+    gap: 100px;
+}
+
+.banner__google-play {
+    padding-left: 99px;
+}
+
+.banner__app-store {
+    padding-right: 99px;
+}
+
+.exchange .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 69px;
+}
+
+.exchange__title{
+    color: #626262;
+}
+
+.exchange__boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 642px;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 30px 30px -15px rgba(0, 133, 255, 0.10);
+    padding: 15px;
+    width: 306px;
+    align-items: center;
+}
+
+.box1 img {
+    border-radius: 13px;
+    background: #DA0000;
+    padding: 8px;
+    margin-right: 30px;
+}
+.box2 img {
+    border-radius: 13px;
+    background: #007EDA;
+    padding: 8px;
+    margin-right: 30px;
+}
+.box3 img {
+    border-radius: 13px;
+    background: #0083AC;
+    padding: 8px;
+    margin-right: 30px;
+}
+.box4 img {
+    border-radius: 13px;
+    background: #00CDDA;
+    padding: 8px;
+    margin-right: 30px;
+}
+
+.box__num {
+    margin-right: 17px;
+}
+
+.box__num2 {
+    margin-left: 12px;
+}
+
+
+.number {
+    color: #323232;
+    font-size: 20px;
+}
+
+span {
+    color: #323232;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.box__between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6px;
+}
+.box__between::before{
+    content: '';
+    width: 43px;
+    height: 1px;
+    background: #626262;
+}
+.box__between::after{
+    content: '';
+    width: 43px;
+    height: 1px;
+    background: #626262;
+}
+
+.card .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card__title {
+    color: #626262;
+    font-size: 30px;
+}
+
+.card__text {
+    margin-top: 12px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.visa {
+    color: #626262;
+    font-size: 20px;
+}
+
+.commission__issue-text {
+    margin-top: 30px;
+}
+
+.commission__transaction-text {
+    margin-top: 20px;
+}
+
+.commission {
+    color: #626262;
+    font-size: 16px;
+
+}
+
+.issue__num {
+    color: #626262;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.visa__btn {
+    display: flex;
+}
+
+.visa__btn-text {
+    margin-top: 20px;
+}
+
+.btn {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    padding: 9px 61px 9px 61px;
+    width: 194px;
+}
+
+
+.visa__text {
+    color: #626262;
+    font-size: 16px;
+    margin: 29px 0 0 30px;
+}
+
+.credit__offers .container {
+    margin-top: 30px;
+}
+
+.credit__boxes {
+    display: flex;
+    gap: 30px;
+}
+
+.credit__offers-box { 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 642px;
+    background: #BDC4FF;
+    padding: 20px;
+    box-shadow: 0px 40px 30px -25px rgba(189, 196, 255, 0.50);
+}
+
+.credit__offers-box:nth-child(2) {
+    background: #FFD280;
+    box-shadow: 0px 40px 30px -25px rgba(255, 210, 128, 0.40);
+}
+
+.offers__box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offers__box-img {
+    display: flex;
+    align-items: center;
+}
+
+.credit__offers-title {
+    text-align: center;
+    color: #626262;
+    font-size: 30px;
+}
+
+.credit__box-title {
+    color: #626262;
+    font-size: 20px;
+}
+
+.credit__box-text1 {
+    width: 472px;
+}
+
+.text {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.credit__box-title::before {
+    content: 'ХИТ';
+    position: absolute;
+    padding: 3px 16px 3px 17px;
+    margin: -30px 0px 23px 9px;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 0.5px solid rgba(215, 215, 215, 0.30);
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(7.5px);
+    width: 59px;
+}
+
+.all__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all__btn-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mobile__app .container {
+    margin-top: 50px;
+}
+
+.mobile__app-title {
+    color: #626262;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mobile__app-boxes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.mobile__app-box1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 642px;
+    border-radius: 10px;
+    background: #97EAB9;
+    box-shadow: 0px 40px 30px -25px rgba(151, 234, 185, 0.40);
+}
+
+.app__box-title1 {
+    color: #626262;
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+
+.mobile__app-box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.mobile__app-left {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    width: 642px;
+    gap: 36px;
+    background: #FFC1BD;
+    padding: 49px 35px;
+    box-shadow: 0px 25px 30px -20px rgba(255, 193, 189, 0.50);
+}
+
+
+.app__box-title {
+    color: #626262;
+    font-size: 30px;
+}
+
+.mobile__app-left:nth-child(2) {
+    background: #C1B7FF;
+    gap: 65px;
+    height: 229px;
+}
+
+.downloads {
+    display: flex;
+    margin-top: 30.5px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.download {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 13px 20px -15px rgba(0, 71, 184, 0.49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    padding-top: 26px;
+    padding-bottom: 27px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer__title {
+    color: #626262;
+    font-size: 20px;
+    margin-top: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__logo-text {
+    color: #B49081;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -25px;
+}
+.dash{
+    color: #B49081;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bilish {
+    color: #B49081;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer__logo-title{
+    color: #563529;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 18px;
+    margin-left: 10px;
+}

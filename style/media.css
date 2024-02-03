@@ -1,0 +1,306 @@
+@media (max-width: 1399.98px) {
+    .banner {
+        padding: 0 20px;
+    }
+
+    .card {
+        padding: 0 20px;
+    }
+
+
+    .credit__box-text1 {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+    .exchange__img img {
+        width: 300px;
+    }
+
+    .box {
+        width: 295px;
+    }
+
+    .mobile__app-left {
+        width: 500px;
+    }
+
+    .credit__box-text1{
+        width: 200px;
+    }
+
+    .app__box-title1{
+        font-size: 28px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .exchange .container {
+        padding: 0 20px;
+    }
+
+    .banner__img img {
+        width: 400px;
+    }
+
+    .exchange__boxes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card__img img {
+        width: 380px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+    }
+
+    .credit__boxes {
+        gap: 20px;
+    }
+
+    .credit__box-text1 {
+        width: 180px;
+    }
+
+    .mobile__app-boxes {
+        flex-direction: column;
+    }
+
+    .mobile__app-left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header__nav .container {
+        gap: 25px;
+    }
+
+    .header__list {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .header__list-li{
+        gap: 20px;
+    }
+
+    .banner__title {
+        font-size: 40px;
+    }
+
+    .banner__info {
+        gap: 25px;
+    }
+
+    .banner__img img {
+        width: 270px;
+    }
+
+    .banner__btn {
+        width: 500px;
+        gap: 50px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__google-play,
+    .banner__app-store {
+        padding: 0;
+    }
+
+    .exchange .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .exchange__img img {
+        width: 500px;
+    }
+
+    .exchange__info {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card .container {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;    
+    }
+
+    .credit__offers{
+        margin-top: 30px;
+    }
+
+    .credit__boxes {
+        flex-wrap: wrap;
+    }
+
+    .credit__box-text1 {
+        width: 350px;
+    }
+
+    .mobile__app-box1 {
+        width: 545px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header .container {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .header__list {
+        padding-top: 0;
+        gap: 10px;
+    }
+
+    .header__list-li {
+        gap: 15px;
+    }
+
+    .banner {
+        height: calc(100vh - 174px);
+        margin-top: 15px;
+    }
+
+    .banner__title{
+        text-align: center;
+    }
+
+    .banner__info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner__btn {
+        width: 280px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .downloads__btn {
+        margin-top: -5px;
+    }
+
+    .exchange__img img {
+        width: 400px;
+    }
+
+    .card__img img {
+        width: 350px;
+    }
+    
+    .credit__box-text1 {
+        width: 200px;
+    }
+
+    .mobile__app-box1 {
+        width: 360px;
+    }
+
+    .mobile__app-box1 img {
+        width: 320px;
+    }
+
+    .mobile__app-left {
+        width: 360px;
+    }
+
+    .mobile__app-left img {
+        width: 90px;
+    }
+
+    .app__box-title1 {
+        text-align: center;
+    }
+
+    .app__box-title {
+        font-size: 25px;
+    }
+
+    .downloads {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .exchange__img img {
+        width: 300px;
+    }
+
+    .card__img img {
+        width: 280px;
+    }
+
+    .credit__offers-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .offers__box-img {
+        padding-top: 15px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .visa__card {
+        width: 290px;
+    }
+
+    .visa__btn-text {
+        width: 150px;
+    }
+
+    .mobile__app-boxes {
+        justify-content: center;
+        align-items: baseline;
+        display: flex;
+    }
+
+    .mobile__app-box1 {
+        width: 290px;
+    }
+
+    .mobile__app-box1 img {
+        width: 260px;
+    }
+
+    .mobile__app-left {
+        width: 290px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mobile__app-left:nth-child(2) {
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .mobile__app-left img {
+        width: 100px;
+    }
+
+    .app__box-title {
+        width: 250px;
+        text-align: center;
+    }
+}
