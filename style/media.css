@@ -175,7 +175,7 @@
     }
 
     .banner {
-        height: calc(100vh - 174px);
+        height: 100%;
         margin-top: 15px;
     }
 
