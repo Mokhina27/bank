@@ -237,6 +237,10 @@
     .downloads {
         flex-wrap: wrap;
     }
+
+    .credit__offers-title {
+        font-size: 27px;
+    }
 }
 
 
